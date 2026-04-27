@@ -218,13 +218,14 @@ footer {
   .main-section {
     width: 768px;
     margin: 20px;
+    padding-bottom: 100px;
     /* 📍 Свойства для установки минимальной высоты секции по размеру контента и нижнего внутреннего отступа */
   }
 
   .main-section .wrapper {
     flex-direction: column-reverse;
     align-items: start;
-    padding-bottom: 60px;
+    gap: 60px;
     /* 📍 Свойства для расположения элементов и отступа между ними */
   }
 
@@ -241,6 +242,11 @@ footer {
   .about-section {
     padding: 60px 0;
     /* 📍 Внутренний отступ сверху и снизу */
+  }
+
+  .info-wrapper {
+    gap: 60px;
+    /* 📍 Отступ между элементами info-wrapper */
   }
 }
 
